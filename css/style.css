@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   border: 0;
+	scrollbar-color: #05161a #fff;	
+
 }
 
 *,
@@ -91,13 +93,17 @@ h6 {
 body{
 	color: #fff;
 	font-family: "Metrophobic", sans-serif;
+	scroll-behavior: smooth;
+}
+body::-webkit-scrollbar-thumb{
+	background-color: #05161a ;
 }
 .container{
 	width: 1200px;
 	margin: 0 auto;
 }
 .header{
-	background-color: #5199ff;
+	background-color: #05161a;
 	margin-bottom: 60px;
 }
 .header__inner{
@@ -129,7 +135,7 @@ body{
 }
 .slider{
 	width: 1240px;
-	background-color: #5199ff;
+	background-color: #05161a;
 	margin-bottom: 80px;
 }
 .swiper{
@@ -168,11 +174,11 @@ body{
 	border-radius: 0px !important;
 	width: 25px !important;
 	height: 25px !important;
-	background-color: #CFD980 !important;
+	background-color: #D0BEA2 !important;
 	opacity: 1 !important;
 }
 .swiper-pagination-bullet-active{
-	background-color: #FF8941 !important;
+	background-color: #981111 !important;
 }
 .swiper-pagination-horizontal{
 	width: 5% !important;
