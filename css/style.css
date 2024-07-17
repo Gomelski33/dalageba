@@ -482,4 +482,57 @@ body::-webkit-scrollbar-thumb{
 		left: 0px;
 		margin: unset;
 	}
+	.slider{
+		display: none;
+	}
+	.card__item{
+		width: 131px;
+		height: 178px;
+		padding-top: 14px ;
+		padding-bottom: 22px;
+		padding-left: 17px;
+		padding-left: 16px;
+	}
+	.card__img{
+		width: 52px;
+		height: 50px;
+		margin-bottom: 5px;
+	}
+	.card__img img{
+		width: 48px;
+		height: 54px;
+	}
+	.card__title{
+		font-size: 15px;
+		margin-bottom: 14px;
+		margin-left: 20px;
+	}
+	.card__list{
+		font-size: 11px;
+	}
+	.card__li{
+		width: 100px;
+	}
+	.card__li span{
+		width: 5px;
+		height: 5px;
+	}
+	.card__img{
+		margin-left: 25px;
+	}
+	.footer__logo img{
+		width: 91px;
+		height: 45px;
+	}
+	.footer__grid a img{
+		width: 20px;
+		height: 18px;
+	}
+	.footer__grid a {
+		font-size: 10px;
+	}
+	.footer{
+		height: unset;
+		padding-bottom: 30px;
+	}
 }
