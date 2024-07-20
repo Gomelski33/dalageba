@@ -105,6 +105,9 @@ body{
 body::-webkit-scrollbar-thumb{
 	background-color: #05161a ;
 }
+.mobile{
+	display: none;
+}
 .container{
 	width: 1200px;
 	margin: 0 auto;
@@ -483,7 +486,24 @@ body::-webkit-scrollbar-thumb{
 		margin: unset;
 	}
 	.slider{
-		display: none;
+		width: 674px;
+		height: 244px;
+	}
+	.slider__img img{
+		width: 271px;
+		height: 220px;
+	}	
+	.slider__title{
+		font-size: 25px;
+		margin-bottom: 12px;
+	}
+	.swiper-pagination-horizontal{
+		width: 14% !important;
+		bottom: 213px !important;
+	}
+	.swiper-pagination-bullet{
+		width: 13.59px !important;
+		height: 13.59px !important;
 	}
 	.card__item{
 		width: 131px;
@@ -534,5 +554,210 @@ body::-webkit-scrollbar-thumb{
 	.footer{
 		height: unset;
 		padding-bottom: 30px;
+	}
+}
+@media screen and (max-width: 682px) {
+	.slider{
+		width: 463px;
+		height: 167px;
+	}
+	.slider__img img{
+		width: 200px;
+		height: 150px;
+	}	
+	.slider__title{
+		font-size: 15px;
+		margin-bottom: 7px;
+	}
+	.slider__subtitle{
+		line-height: 13px;
+	}
+	.swiper-pagination-horizontal {
+    width: 22% !important;
+    bottom: 256px !important;
+  }
+}
+@media screen and (max-width: 479px) {
+	.header  {
+		display: none;
+	}
+	.about{
+		display: none;
+	}
+	.slider{
+		display: none;
+	}
+	.cards{
+		display: none;
+	}
+	.footer{
+		display: none;
+	}
+	.mobile{
+		display: unset;
+	}
+	.mobile__container{
+		width: 390px;
+		margin: 0 auto;
+	}
+	.mobile__header{
+		background-color: #36C983;
+		padding-top: 26px;
+		padding-bottom: 37px;
+	}
+	.mobile__inner{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.logo__lang{
+		font-size: 24px;
+	}
+	.mobile__active{
+		display: inline;
+		color: #D0DE30;
+	}
+	.mobile__top{
+		background-color: #36C983;
+		padding-bottom: 85px;
+		margin-bottom: 62px;
+	}
+	.logo__lang span{
+		display: inline-block;
+		width: 4px;
+		height: 26px;
+		margin-left: 11px;
+		margin-right: 11px;
+		background-color: #fff;
+	}
+	.ellipse{
+		width: 159px;
+		height: 159px;
+		background-color: #D0DE30;
+		border-radius: 100px;
+	}
+	.mobile__ellipse{
+		display: grid;
+		grid-template-columns: 1fr auto;
+		gap: 7px;
+		margin-bottom: 25px;
+	}
+	.mobile__title{
+		font-size: 80px;
+		margin-bottom: 14px ;
+	}
+	.mobile__sub-title{
+		font-size: 20px;
+	}
+	.mobile__aboutus{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 38px;
+	}
+	.mobile__aboutus-card{
+		width: 332px;
+		height: 431px;
+		background-color: #252323;
+		padding: 39px 30px;
+		border-radius: 40px;
+	}
+	.mobile__card-title{
+		text-align: center;
+		margin-bottom: 39px;
+		font-size: 35px;
+	}
+	.mobile__card-text{
+		max-width: 266px;
+		font-size: 20px;
+	}
+	.mobile__card-title span{
+		border: 1px solid #fff;
+		padding-left: 22px ;
+		padding-right: 22px;
+		padding-bottom: 6px;
+		padding-top: 9px;
+	}
+	.offers__top img{
+		width: 100%;
+		height: 337px;
+	}
+	.offers__middle{
+		padding-top: 58px;
+		background-color: #36C983;
+		text-align: center;
+		padding-bottom: 72px;
+	}
+	.offers__title{
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+	.offers__subtitle{
+		font-size: 20px;
+		color: #D0DE30;
+		margin-bottom: 72px;
+	}
+	.offers__cards{
+		display: grid;
+		grid-template-columns: 1fr auto;
+		gap: 60px;
+		padding-bottom: 108px;
+	}
+	.offers__card{
+		text-align: start;
+		padding-top: 21px;
+		padding-bottom: 19px;
+		padding-left: 19px;
+		border: 1px solid #fff;
+		border-radius: 40px;
+		width: 147px;
+	}
+	.mobile-card__ellipse span{
+		display: inline-block;
+		width: 21px;
+		height: 21px;
+		background-color: #D0DE30;
+		border-radius: 100px;
+		margin-bottom: 100px;
+	}
+	.mobile-card__title{
+		font-size: 25px;
+		margin-bottom: 14px;
+	}
+	.mobile-card__text{
+		font-size: 18px;
+	}
+	.offers__bottom{
+		text-align: center;
+		background-color: #252323;
+	}
+	.offers__bottom img{
+		width: 100%;
+	}
+	.mobile__footer{
+		background-color: #252323;
+		padding-top: 43px;
+		padding-bottom: 100px;
+	}
+	.mobile__footer-title{
+		font-size: 80px;
+		margin-bottom: 35px;
+	}
+	.mobile__footer-links{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 61px;
+	}
+	.mobile__footer-links a{
+		padding: 29px 27px 26px 28px;
+		background-color: #D0DE30;
+		border-radius: 100px;
+	}
+	.footer__tel{
+		text-align: center;
+	}
+	.footer__tel a{
+		padding: 6px 43px;
+		border: 1px solid #fff;
+		border-radius: 100px;
 	}
 }
